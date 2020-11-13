@@ -15,3 +15,9 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+function getImagesMarkup(arr) {
+  const gallery = `
+  <ul>
+  <li>`
+}
