@@ -4,7 +4,8 @@
     "sources": [
         "../sass/main.scss",
         "../sass/base/_normalize.scss",
-        "../sass/base/_common.scss"
+        "../sass/base/_common.scss",
+        "../sass/base/_task4.scss"
     ],
     "names": [],
     "file": "main.css"
