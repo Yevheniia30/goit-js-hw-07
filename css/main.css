@@ -361,6 +361,23 @@ img {
   height: auto;
 }
 
+.js-images-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.js-images-item {
+  list-style: none;
+  width: calc(100% / 3);
+  height: auto;
+}
+
 .js-counter-btn {
   color: #ffffff;
   font-weight: bold;

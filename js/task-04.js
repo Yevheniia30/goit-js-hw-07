@@ -7,7 +7,6 @@ const decrement = value => {
     counterValue -= 1;
     result();
 }
-
 const result = () => {
     valueRef.textContent = counterValue;
 }
