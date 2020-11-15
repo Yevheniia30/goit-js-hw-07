@@ -360,4 +360,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.js-counter-btn {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.js-increment-btn {
+  background-color: #418a59;
+}
+
+.js-decrement-btn {
+  background-color: #cc4242;
+}
+
+.js-counter-result {
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
