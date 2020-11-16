@@ -9,8 +9,8 @@ const outputRef = document.querySelector('#name-output')
 //    outputRef.textContent = event.target.value;
 // }) 
 
-const inputEvent = event => {
-    inputRef.value ? outputRef.textContent = event.target.value : outputRef.textContent='незнакомец'
+const inputEvent = input => {
+    inputRef.value ? outputRef.textContent = input.target.value : outputRef.textContent='незнакомец'
 }
 
 inputRef.addEventListener('input', inputEvent);
