@@ -373,7 +373,7 @@ img {
   padding: 0;
 }
 
-.js-images-list.js-images-item {
+.js-images-list .js-images-item {
   list-style: none;
 }
 
