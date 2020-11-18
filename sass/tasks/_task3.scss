@@ -1,15 +1,15 @@
 .js-images-list {
   display: flex;
-  // flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: space-between;
   margin: 0 auto;
   padding: 0;
 }
-.js-images-item {
+.js-images-list.js-images-item {
   list-style: none;
-  width: calc(100% / 3);
-  height: auto;
+  // width: calc(100% / 3);
 }
+
 // .js-images-item:not(:last-child) {
 //   margin-right: 15px;
 // }

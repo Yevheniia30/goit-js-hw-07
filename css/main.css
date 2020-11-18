@@ -361,6 +361,43 @@ img {
   height: auto;
 }
 
+.js-images-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.js-images-list.js-images-item {
+  list-style: none;
+}
+
+.js-counter-btn {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.js-increment-btn {
+  background-color: #418a59;
+}
+
+.js-decrement-btn {
+  background-color: #cc4242;
+}
+
+.js-counter-result {
+  font-weight: bold;
+}
+
 #validation-input {
   border: 3px solid #bdbdbd;
 }
